@@ -16,6 +16,7 @@
 		250E7F3015A68811001B2D10 /* MFMPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 250E7F2F15A68811001B2D10 /* MFMPlayerManager.m */; };
 		25124AC015DD6A5300B011AD /* MFMResourceCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 25124ABF15DD6A5200B011AD /* MFMResourceCollection.m */; };
 		25161FA115DC46DE00B16227 /* MFMOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 25161FA015DC46DE00B16227 /* MFMOAuth.m */; };
+		251D1BFC17EDAE73004543CD /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251D1BFB17EDAE73004543CD /* iPhoneStoryboard.storyboard */; };
 		2535788A15309190008185BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2535788915309190008185BD /* UIKit.framework */; };
 		2535788C15309190008185BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2535788B15309190008185BD /* Foundation.framework */; };
 		2535788E15309190008185BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2535788D15309190008185BD /* CoreGraphics.framework */; };
@@ -138,6 +139,7 @@
 		25124ABF15DD6A5200B011AD /* MFMResourceCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMResourceCollection.m; sourceTree = "<group>"; };
 		25161F9F15DC46DE00B16227 /* MFMOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMOAuth.h; sourceTree = "<group>"; };
 		25161FA015DC46DE00B16227 /* MFMOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMOAuth.m; sourceTree = "<group>"; };
+		251D1BFB17EDAE73004543CD /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 		2535788515309190008185BD /* Moe FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moe FM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2535788915309190008185BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2535788B15309190008185BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -380,6 +382,7 @@
 		2535789215309190008185BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				251D1BFB17EDAE73004543CD /* iPhoneStoryboard.storyboard */,
 				253578C21530A37B008185BD /* Storyboard.storyboard */,
 				25E3F5D31539A474003FABD2 /* Localizable.strings */,
 				2535789315309190008185BD /* Moe FM-Info.plist */,
@@ -640,6 +643,7 @@
 				25E3F5E21539B175003FABD2 /* dislike_no.png in Resources */,
 				25E3F5E31539B175003FABD2 /* dislike_yes.png in Resources */,
 				25E3F5E41539B175003FABD2 /* fav_no.png in Resources */,
+				251D1BFC17EDAE73004543CD /* iPhoneStoryboard.storyboard in Resources */,
 				25E3F5E51539B175003FABD2 /* fav_yes.png in Resources */,
 				25E3F5E61539B175003FABD2 /* next.png in Resources */,
 				25E3F5E71539B175003FABD2 /* pause.png in Resources */,
